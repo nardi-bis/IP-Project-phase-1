@@ -3,96 +3,326 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="st.css">
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
-    />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+    <title>Wired Hotel | Home</title>
 </head>
-
 <body>
-    <section class="head">
-        <div class="head_container flex1">
-            <div class="scoial">
-                <i class="fab fa-facebook-f"></i>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-youtube"></i>
+    <header class="headind" id="heading">
+        <img src="Images/home/logo.png" alt="">
+        <nav class="navbar">
+            <div class="nav-logo">
+                <img src="Images/home/logo_mark.png" alt="">
             </div>
-            <div class="address">
-                <i class="fas fa-map-marker-alt"></i>
-                <span>Bole, Addis Ababa, Ethiopia</span>
+            <div class="nav-manu">
+                <ul class="nav-menu">
+                    <li> <a href="#home">ABOUT</a> </li>
+                    <li> <a href="#about">ROOM</a> </li>
+                    <li> <a href="#room">EVENT</a> </li>
+                    <li> <a href="#services">RESTAURANT</a> </li>
+                </ul>
             </div>
-            <div class="head-contact">
-                <i class="fas fa-phone-volume"></i><span>+000 1234 5678</span>
+            <div class="social-medias">
+                <a href="#fb-link"><i class='bx bxl-facebook'></i></a>
+                <a href="#fb-link"><i class='bx bxl-instagram-alt'></i></a>
+            </div>
+            <div >
+                <select id="language" class="language-selector">
+                    <option value="en">English</option>
+                    <option value="fr">French</option>
+                </select>
             </div> 
-        </div>
-    </section>
-
-    <header>
-        <nav>
-            <ul class="nav-bar">
-                <li class="logo"><a href="index.html"><img src="image/logo.png"></a></li>
-                <input type="checkbox" id="check"/>
-                <span class="menu">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Events</a></li>
-                    <li><a href="">Gallery</a></li>
-                    <li><a href="">Rooms</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="">About</a></li>
-                    <label for="check" class="close-menu">
-                    <i class="fas fa-times"></i></label>
-                </span>
-                <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
-            </ul>
         </nav>
     </header>
 
-    <section class="home" id="home">
-        <div class="home_container">
-            <img src="image/logo.png">
-            <p>Discover the place where you have fun & enjoy a lot</p>
-            <div class="content grid">
-                <div class="box">
-                    <span>ARRIVAL DATE </span> <br>
-                    <input type="date" placeholder="29/20/2021">
-                </div>
-                <div class="box">
-                    <span>DEPARTURE DATE </span> <br>
-                    <input type="date" placeholder="29/20/2021">
-                </div>
-                <div class="box">
-                    <span>ADULTS</span> <br>
-                    <input type="number" placeholder="01">
-                </div>
-                <div class="box">
-                    <span>CHILDREN </span> <br>
-                    <input type="number" placeholder="01">
-                </div>
-                <div class="box available">
-                    <button class="flex1">
-                        <span>Check Availability</span>
-                        <i class="fas fa-arrow-circle-right"></i>
-                    </button>
-                </div>
-            </div>
+    <section class="about" id="about">
+        <div class="about-part">
+            <h1>Dive into Wired</h1>
+            <p>WIRED HOTEL is a.....Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="more-about">
+            <a class="clickable" href="#more-about">View Detailed About</a>
         </div>
     </section>
 
-    <section class="about" id="about">.....
+    <section class="experience">
+        <ul class="experience-menu">
+            <li class="neighborhoods">
+                <img src="Images/about/neighborhood.jpg" alt="">
+                <p>Asakusa is a neighborhood in Tokyo that has resisted change so retains much old world Japanese charm. The variety of temple, shrines, and traditional architecture makes Asakusa one of Tokyo’s top tourist attractions.</p>
+            </li>
+            <li class="experience">
+                <img src="Images/about/experience.jpg" alt="">
+                <p>WIRED HOTEL is located in a deep part of Asakusa away from the main tourist sites and the neighborhood offers a real Tokyo lifestyle experience. We partnered with local craftsmen and artisans to create our hotel’s unique interior &</p>
+            </li>
+            <li class="Cafe">
+                <img src="Images/about/cafecompany.jpg" alt="">
+                <p>WIRED HOTEL Asakusa is the first hotel by Cafe Company Inc., a Japan-based cafe and restaurant company with the goal of building community around all our locations. Our signature brand is WIRED CAFE, and WIRED HOTEL now</p>
+            </li>
+        </ul>
+    </section>
 
+    <section class="about-video">
+        <div>
+            <video src="video/WIRED HOTEL by OMFGco..mp4" controls></video>
+        </div>
+    </section>
 
-  
+    <section class="rooms">
+        <div class="">
+            <div class="rooms-intro">
+                <h1>Guest ROOMs</h1>
+                <p>Here at WIRED HOTEL our three different types of rooms are built to accommodate your personal travel style.</p>
+            </div>
+            <a class="clickable" href="#more-about">View All Rooms</a>
+        </div>
+
+        <div>
+            <ul class="rooms-list">
+                <a href="room-type">
+                    <li>
+                        <div><img src="Images/room/superior_thumb.jpg" alt=""></div>
+                        <div><h1>SUPERIOR CLASS</h1>
+                            <p>Our highest room rank located on the upper floors of WIRED HOTEL are all equipped with king beds and large, private bathrooms. Enjoy a luxurious stay in our best room, the Penthouse by DUXIANA, or spend your time laying out on the expansive terrace in our WIRED TERRACE room.</p>
+                        </div>
+                        <div><a class="clickable-room" href="#room-type-1">View Detailed About</a></div>
+                    </li>
+                </a>
+            </ul>
+        </div>
+        <div>
+        <ul class="rooms-list">
+                <a href="room-type">
+                    <li>
+                        <div><img src="Images/room/standard_thumb.jpg" alt=""></div>
+                        <div><h1>STANDARD CLASS</h1>
+                            <p>Choose from our three different private Standar, Compact and Mini room types to accommodate your personal travel needs.Bunk Bed rooms are also available for those traveling with family and friends.</p>
+                        </div>
+                        <div><a class="clickable-room" href="#room-type-2">View Detailed About</a></div>
+                    </li>
+                </a>
+            </ul>
+        </div>
+        <div>
+            <ul class="rooms-list">
+                <a href="room-type">
+                    <li>
+                        <div><img src="Images/room/dormitory_thumb.jpg" alt=""></div>
+                        <div><h1>DORMITORY CLASS</h1>
+                            <p>Our second floor Hostel style bunk bed rooms feature shared shower facilities.We have prepared both a mixed dormand a female-only dorm for our guests to enjoy.People of all nationalities can enjoy spending time mingling with travelers from around the world.</p>
+                        </div>
+                        <div><a class="clickable-room" href="#room-type-3">View Detailed About</a></div>
+                    </li>
+                </a>
+            </ul>
+        </div>
+    </section>
+
+    <section class="event">
+        <div class="">
+            <div class="rooms-intro">
+                <h1>Event</h1>
+                <p>Upcoming events to be held at WIRED HOTEL.</p>
+            </div>
+            <a class="clickable" href="#more-event">View All Events</a>
+        </div>
+
+        <div>
+            <div>
+                <img src="" alt=""> 
+            </div>
+            <div>
+                <p>WIRED CHAYA is our Edo-style cafe / bar / restaurant on the first floor of WIRED HOTEL. We serve authentic Japanese cuisine and as much as possible utilize only the best local and seasonal ingredients. Drop by for just a hand-drip coffee or matcha late, a casual lunch, or come for a unique a-la-carte dining experience. Also be sure to sample one of our many premium Japanese sakes. Our main attraction is our breakfast, which is not served buffet style, but as a luxurious individual platter featuring a sampling of seasonal Japanese delicacies. This space is also where we hold regular events with our Ambassadors, so make sure to check our event calendar to see what is going on during your stay. All WIRED HOTEL guests also get one free-drink ticket for each night of their stay.</p>
+                <a class="clickable" href="#more-restourant">View Details</a>
+            </div>
+            <div><img src="" alt=""></div>
+        </div>
+    </section>
+
+    <section class="shop">
+        <div class="">
+            <div class="shop-intro">
+                <h1>Shop</h1>
+                <p>WIRED HOTEL and local craftsmen and designers from Asakusa.</p>
+            </div>
+            <a class="clickable" href="#more-shop">View Shop Details</a>
+        </div>
+        <div >
+            <img src="Images/Shop/image_shop.jpg" alt="">
+            <video src="video/WIRED HOTEL - Artisans & Ambassadors.mp4" controls></video>
+        </div>
+    </section>
+
+    <section class="instagram">
+        <div class="">
+            <div class="instagarm-intro">
+                <h1>INSTAGRAM</h1>
+                <p>Let's see a picture with the tag of “WIRED HOTEL”.</p>
+            </div>
+            <a class="clickable" href="#more-insta">#WIRED HOTEL</a>
+        </div>
+        <div>
+
+        </div>
+    </section class="location">
+        <div class="">
+            <div class="location-intro">
+                <h1>LOCATION</h1>
+                <p>The way to WIRED HOTEL from various places.</p>
+            </div>
+            <a class="clickable" href="#more-location">VIEW GOOGLE MAP</a>
+        </div>
+        <div class="map-location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3308.8903514737303!2d38.79264376584596!3d8.989231215609903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2set!4v1734269229118!5m2!1sen!2set" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <ul>
+            <li class="train">
+                <div>
+                    <i class='bx bxs-train'></i>
+                    <h3>BY TRAIN</h3>
+                    <p>5 minute walk from Asakusa Station Tokyo Metro Ginza Line / Tobu Isesaki Line , 10 minute walk from Tawaramachi Station Tokyo Metro Ginza Line , 3 minute walk from Asakusa Station Tsukuba Express</p>
+                    <a href="https://maps.app.goo.gl/KcBHWWKRT3g7R8gSA">From Bole International Airport</a>
+                </div>
+            </li>
+            <li class="airport">
+                <div>
+                    <i class='bx bxs-plane-alt'></i>
+                    <h3>FROM AIRPORT</h3>
+                    <p>6 minutes from Kansai International Airport on JR limited express “Haruka” 12 minutes on foot from Kyoto Station (JR) Central Exit</p>
+                    <a href="https://maps.app.goo.gl/KcBHWWKRT3g7R8gSA">From Bole International Airport</a>
+                </div>
+            </li>
+            <li class="bus">
+                <div>
+                    <i class='bx bx-bus'></i>
+                    <h3>BY BUS</h3>
+                    <p>2 minutes from Osaka International Airport (Itami Airport) by airport limousine bus (Departing and arriving at Kyoto Station Hachijo Exit) 15 minutes on foot from Kyoto Station Hachijo Exit</p>
+                    <a href="https://maps.app.goo.gl/KcBHWWKRT3g7R8gSA">From Bole International Airport</a>
+                </div>
+            </li>
+        </ul>
+
+    <footer>
+        <div>
+            <img src="Images/home/logo.png" alt="">
+            <ul>
+                <li><span>address</span>Wired Building, Cameroon St, Addis Ababa<a href="https://maps.app.goo.gl/XeFVco84LfQ6Z1AV6">Google map</a></li>
+                <li><span>tel</span> +000 0000 0000</li>
+                <li><span>email</span><a href="mailto:example@example.com">example@example.com</a></li>
+            </ul>
+    </div>
+    <p class="left">
+        <div>
+            <a href="#contact-us-page">Contact us</a>
+        </div>
+        <div>
+            <a href="#about-us-page">About us</a>
+        </div>
+    </p>
+
+    <p class="center"><p>&#169; 2024 Your Company Name. All rights reserved.</p></p>
+    </footer>
+</body>
+</html>
+
+<form id="frmplanseek" name="frmplanseek">
+<div id="booking_inner" style="bottom: 0px;">
+<div id="booking_inner_close">x</div>
+
+	<div class="floatLeft" id="first">
+	<h4 class="booking">Arrival Date</h4>
+	<div id="calid"></div>
+	<input id="month" type="text" name="cmbARRM" size="3" maxlength="3">
+	<input id="day" type="text" name="cmbARRD" size="3" maxlength="2">
+	<input id="year" type="text" name="cmbARRY" size="5" maxlength="4">
+	</div>
+	<div class="floatLeft">
+	<h4>Night(s)</h4>
+	<select id="nights" name="hidSELECTHAKSU">
+		<option value="1" selected="">01</option>
+		<option value="2">02</option>
+		<option value="3">03</option>
+		<option value="4">04</option>
+		<option value="5">05</option>
+		<option value="6">06</option>
+		<option value="7">07</option>
+		<option value="8">08</option>
+		<option value="9">09</option>
+		<option value="10">10</option>
+		<option value="11">11</option>
+		<option value="12">12</option>
+		<option value="13">13</option>
+		<option value="14">14</option>
+		<option value="15">15</option>
+		<option value="16">16</option>
+		<option value="17">17</option>
+		<option value="18">18</option>
+		<option value="19">19</option>
+		<option value="20">20</option>
+		<option value="21">21</option>
+	</select>
+	</div>
+
+	<div class="floatLeft floatRight">
+	<h4>Room(s)</h4>
+	<select id="rooms" name="hidROOM">
+		<option value="1" selected="">01</option>
+		<option value="2">02</option>
+		<option value="3">03</option>
+		<option value="4">04</option>
+		<option value="5">05</option>
+		<option value="6">06</option>
+		<option value="7">07</option>
+		<option value="8">08</option>
+	</select>
+	</div>
+
+<div class="floatLeft">
+<h4>Adult</h4>
+	<select id="adult" name="cmbADULT">
+		<option value="1" selected="">01</option>
+		<option value="2">02</option>
+		<option value="3">03</option>
+		<option value="4">04</option>
+		<option value="5">05</option>
+		<option value="6">06</option>
+		<option value="7">07</option>
+		<option value="8">08</option>
+	</select>
+</div>
+
+<div class="floatLeft floatRight">
+	<h4>Child</h4>
+	<select id="child" name="cmbCHILDa">
+		<option value="0" selected="">0</option>
+		<option value="1">01</option>
+		<option value="2">02</option>
+		<option value="3">03</option>
+	</select>
+</div>
+
+	<input type="hidden" name="cmbCHILDb" value="0">
+	<input type="hidden" name="cmbCHILDc" value="0">
+	<input type="hidden" name="cmbCHILDd" value="0">
+	<input type="hidden" name="cmbCHILDe" value="0">
+	<input type="hidden" name="cmbCHILDf" value="0">
+	<input type="hidden" name="cmbCHILDg" value="0">
+	<input type="hidden" name="cmbCHILDh" value="0">
+	<input type="hidden" name="cmbCHILDi" value="0">
+	<input type="hidden" name="cmbCHILDj" value="0">
+	<input type="hidden" name="minPrice" value="0">
+	<input type="hidden" name="maxPrice" value="9999999">
+<div class="booking_date" style="display:none;">
+	<div id="searchtypearea">
+	<input type="radio" name="hiddispunit" id="selectplan" value=""><label for="selectplan">Each Plan</label><br>
+	<input type="radio" name="hiddispunit" id="selectroom" value="room" checked=""><label for="selectroom">Each Room</label><br>
+	<input type="radio" name="hiddispunit" id="selectcald" value="calendar"><label for="selectcald">Display Calendar</label><br>
+	</div>
+</div>
+
+<input type="button" name="seek" class="button" value="BOOKING">
+<input type="hidden" name="hidSELECTARRYMD" value="">
+<input type="hidden" name="hidchkymd" value="">
+<input type="hidden" name="hidchkpsn" value="">
+<input type="hidden" name="Dispunit" value="">
+</div>
+</form>
